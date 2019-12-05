@@ -1,0 +1,286 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\Cristian\Desktop\Neurotec_Biometric_11_2_SDK\Samples\Biometrics\Android\multibiometric-sample\src\main\AndroidManifest.xml:2:1-135:12
+INJECTED from C:\Users\Cristian\Desktop\Neurotec_Biometric_11_2_SDK\Samples\Biometrics\Android\multibiometric-sample\src\main\AndroidManifest.xml:2:1-135:12
+INJECTED from C:\Users\Cristian\Desktop\Neurotec_Biometric_11_2_SDK\Samples\Biometrics\Android\multibiometric-sample\src\main\AndroidManifest.xml:2:1-135:12
+MERGED from [:neurotec-biometrics-gui-android:] C:\Users\Cristian\.gradle\caches\transforms-2\files-2.1\1d0f669f60c403b2bbe4013a10c20f9a\AndroidManifest.xml:2:1-10:12
+MERGED from [:samples-utils] C:\Users\Cristian\Desktop\Neurotec_Biometric_11_2_SDK\Samples\Common\Android\utils\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:support-v4:27.1.1] C:\Users\Cristian\.gradle\caches\transforms-2\files-2.1\67a701b92b27317acb419deada232a6a\AndroidManifest.xml:17:1-22:12
+MERGED from [:neurotec-licensing-gui-android:] C:\Users\Cristian\.gradle\caches\transforms-2\files-2.1\2781a0b2dd75a51755d62293db338491\AndroidManifest.xml:2:1-10:12
+MERGED from [com.android.support:support-media-compat:27.1.1] C:\Users\Cristian\.gradle\caches\transforms-2\files-2.1\65d4325da0a848041d54aedbee6c89f8\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\Cristian\.gradle\caches\transforms-2\files-2.1\5fadcd7dbef72873945a991cca54d003\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\Cristian\.gradle\caches\transforms-2\files-2.1\6cd27ccadcffdee49ff4826f4dabc12a\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\Cristian\.gradle\caches\transforms-2\files-2.1\543494421e29aa606c4cd01724c182c9\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:27.1.1] C:\Users\Cristian\.gradle\caches\transforms-2\files-2.1\4f9e2cfbef2945db1cf05d685a481f4f\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\Cristian\.gradle\caches\transforms-2\files-2.1\ceb068329be45303f8a66eedfe731b64\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\Cristian\.gradle\caches\transforms-2\files-2.1\31333e6a7515e9c7d5ddf3311001217b\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\Cristian\.gradle\caches\transforms-2\files-2.1\a2785a7e56decf9a45a2dff1cd3143ce\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.0] C:\Users\Cristian\.gradle\caches\transforms-2\files-2.1\fc1aac942f58a63deef3824893594ee9\AndroidManifest.xml:17:1-22:12
+INJECTED from C:\Users\Cristian\Desktop\Neurotec_Biometric_11_2_SDK\Samples\Biometrics\Android\multibiometric-sample\src\main\AndroidManifest.xml:2:1-135:12
+INJECTED from C:\Users\Cristian\Desktop\Neurotec_Biometric_11_2_SDK\Samples\Biometrics\Android\multibiometric-sample\src\main\AndroidManifest.xml:2:1-135:12
+	package
+		ADDED from C:\Users\Cristian\Desktop\Neurotec_Biometric_11_2_SDK\Samples\Biometrics\Android\multibiometric-sample\src\main\AndroidManifest.xml:4:2-47
+	android:versionName
+		ADDED from C:\Users\Cristian\Desktop\Neurotec_Biometric_11_2_SDK\Samples\Biometrics\Android\multibiometric-sample\src\main\AndroidManifest.xml:6:2-32
+		INJECTED from C:\Users\Cristian\Desktop\Neurotec_Biometric_11_2_SDK\Samples\Biometrics\Android\multibiometric-sample\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Cristian\Desktop\Neurotec_Biometric_11_2_SDK\Samples\Biometrics\Android\multibiometric-sample\src\main\AndroidManifest.xml
+	xmlns:tools
+		ADDED from C:\Users\Cristian\Desktop\Neurotec_Biometric_11_2_SDK\Samples\Biometrics\Android\multibiometric-sample\src\main\AndroidManifest.xml:3:2-48
+	xmlns:android
+		ADDED from C:\Users\Cristian\Desktop\Neurotec_Biometric_11_2_SDK\Samples\Biometrics\Android\multibiometric-sample\src\main\AndroidManifest.xml:2:11-69
+	android:versionCode
+		ADDED from C:\Users\Cristian\Desktop\Neurotec_Biometric_11_2_SDK\Samples\Biometrics\Android\multibiometric-sample\src\main\AndroidManifest.xml:5:2-25
+		INJECTED from C:\Users\Cristian\Desktop\Neurotec_Biometric_11_2_SDK\Samples\Biometrics\Android\multibiometric-sample\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Cristian\Desktop\Neurotec_Biometric_11_2_SDK\Samples\Biometrics\Android\multibiometric-sample\src\main\AndroidManifest.xml
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from C:\Users\Cristian\Desktop\Neurotec_Biometric_11_2_SDK\Samples\Biometrics\Android\multibiometric-sample\src\main\AndroidManifest.xml:8:2-73
+	android:name
+		ADDED from C:\Users\Cristian\Desktop\Neurotec_Biometric_11_2_SDK\Samples\Biometrics\Android\multibiometric-sample\src\main\AndroidManifest.xml:8:19-70
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from C:\Users\Cristian\Desktop\Neurotec_Biometric_11_2_SDK\Samples\Biometrics\Android\multibiometric-sample\src\main\AndroidManifest.xml:9:2-76
+	android:name
+		ADDED from C:\Users\Cristian\Desktop\Neurotec_Biometric_11_2_SDK\Samples\Biometrics\Android\multibiometric-sample\src\main\AndroidManifest.xml:9:19-73
+uses-permission#android.permission.BLUETOOTH
+ADDED from C:\Users\Cristian\Desktop\Neurotec_Biometric_11_2_SDK\Samples\Biometrics\Android\multibiometric-sample\src\main\AndroidManifest.xml:10:2-65
+	android:name
+		ADDED from C:\Users\Cristian\Desktop\Neurotec_Biometric_11_2_SDK\Samples\Biometrics\Android\multibiometric-sample\src\main\AndroidManifest.xml:10:19-62
+uses-permission#android.permission.BLUETOOTH_ADMIN
+ADDED from C:\Users\Cristian\Desktop\Neurotec_Biometric_11_2_SDK\Samples\Biometrics\Android\multibiometric-sample\src\main\AndroidManifest.xml:11:2-71
+	android:name
+		ADDED from C:\Users\Cristian\Desktop\Neurotec_Biometric_11_2_SDK\Samples\Biometrics\Android\multibiometric-sample\src\main\AndroidManifest.xml:11:19-68
+uses-permission#android.permission.CAMERA
+ADDED from C:\Users\Cristian\Desktop\Neurotec_Biometric_11_2_SDK\Samples\Biometrics\Android\multibiometric-sample\src\main\AndroidManifest.xml:12:2-61
+	android:name
+		ADDED from C:\Users\Cristian\Desktop\Neurotec_Biometric_11_2_SDK\Samples\Biometrics\Android\multibiometric-sample\src\main\AndroidManifest.xml:12:19-59
+uses-permission#android.permission.CHANGE_WIFI_STATE
+ADDED from C:\Users\Cristian\Desktop\Neurotec_Biometric_11_2_SDK\Samples\Biometrics\Android\multibiometric-sample\src\main\AndroidManifest.xml:13:2-72
+	android:name
+		ADDED from C:\Users\Cristian\Desktop\Neurotec_Biometric_11_2_SDK\Samples\Biometrics\Android\multibiometric-sample\src\main\AndroidManifest.xml:13:19-70
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\Cristian\Desktop\Neurotec_Biometric_11_2_SDK\Samples\Biometrics\Android\multibiometric-sample\src\main\AndroidManifest.xml:14:2-64
+	android:name
+		ADDED from C:\Users\Cristian\Desktop\Neurotec_Biometric_11_2_SDK\Samples\Biometrics\Android\multibiometric-sample\src\main\AndroidManifest.xml:14:19-61
+uses-permission#android.permission.READ_LOGS
+ADDED from C:\Users\Cristian\Desktop\Neurotec_Biometric_11_2_SDK\Samples\Biometrics\Android\multibiometric-sample\src\main\AndroidManifest.xml:15:2-65
+	android:name
+		ADDED from C:\Users\Cristian\Desktop\Neurotec_Biometric_11_2_SDK\Samples\Biometrics\Android\multibiometric-sample\src\main\AndroidManifest.xml:15:19-62
+uses-permission#android.permission.READ_OWNER_DATA
+ADDED from C:\Users\Cristian\Desktop\Neurotec_Biometric_11_2_SDK\Samples\Biometrics\Android\multibiometric-sample\src\main\AndroidManifest.xml:16:2-71
+	android:name
+		ADDED from C:\Users\Cristian\Desktop\Neurotec_Biometric_11_2_SDK\Samples\Biometrics\Android\multibiometric-sample\src\main\AndroidManifest.xml:16:19-68
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from C:\Users\Cristian\Desktop\Neurotec_Biometric_11_2_SDK\Samples\Biometrics\Android\multibiometric-sample\src\main\AndroidManifest.xml:17:2-72
+	android:name
+		ADDED from C:\Users\Cristian\Desktop\Neurotec_Biometric_11_2_SDK\Samples\Biometrics\Android\multibiometric-sample\src\main\AndroidManifest.xml:17:19-69
+uses-permission#android.permission.RECORD_AUDIO
+ADDED from C:\Users\Cristian\Desktop\Neurotec_Biometric_11_2_SDK\Samples\Biometrics\Android\multibiometric-sample\src\main\AndroidManifest.xml:18:2-67
+	android:name
+		ADDED from C:\Users\Cristian\Desktop\Neurotec_Biometric_11_2_SDK\Samples\Biometrics\Android\multibiometric-sample\src\main\AndroidManifest.xml:18:19-65
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from C:\Users\Cristian\Desktop\Neurotec_Biometric_11_2_SDK\Samples\Biometrics\Android\multibiometric-sample\src\main\AndroidManifest.xml:19:2-78
+	android:name
+		ADDED from C:\Users\Cristian\Desktop\Neurotec_Biometric_11_2_SDK\Samples\Biometrics\Android\multibiometric-sample\src\main\AndroidManifest.xml:19:19-75
+uses-permission#android.permission.WRITE_OWNER_DATA
+ADDED from C:\Users\Cristian\Desktop\Neurotec_Biometric_11_2_SDK\Samples\Biometrics\Android\multibiometric-sample\src\main\AndroidManifest.xml:20:2-72
+	android:name
+		ADDED from C:\Users\Cristian\Desktop\Neurotec_Biometric_11_2_SDK\Samples\Biometrics\Android\multibiometric-sample\src\main\AndroidManifest.xml:20:19-69
+uses-permission#android.permission.WRITE_SETTINGS
+ADDED from C:\Users\Cristian\Desktop\Neurotec_Biometric_11_2_SDK\Samples\Biometrics\Android\multibiometric-sample\src\main\AndroidManifest.xml:21:2-70
+	android:name
+		ADDED from C:\Users\Cristian\Desktop\Neurotec_Biometric_11_2_SDK\Samples\Biometrics\Android\multibiometric-sample\src\main\AndroidManifest.xml:21:19-67
+uses-permission#android.permission.WAKE_LOCK
+ADDED from C:\Users\Cristian\Desktop\Neurotec_Biometric_11_2_SDK\Samples\Biometrics\Android\multibiometric-sample\src\main\AndroidManifest.xml:22:2-65
+	android:name
+		ADDED from C:\Users\Cristian\Desktop\Neurotec_Biometric_11_2_SDK\Samples\Biometrics\Android\multibiometric-sample\src\main\AndroidManifest.xml:22:19-62
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from C:\Users\Cristian\Desktop\Neurotec_Biometric_11_2_SDK\Samples\Biometrics\Android\multibiometric-sample\src\main\AndroidManifest.xml:23:2-77
+	android:name
+		ADDED from C:\Users\Cristian\Desktop\Neurotec_Biometric_11_2_SDK\Samples\Biometrics\Android\multibiometric-sample\src\main\AndroidManifest.xml:23:19-74
+uses-feature#android.hardware.usb.host
+ADDED from C:\Users\Cristian\Desktop\Neurotec_Biometric_11_2_SDK\Samples\Biometrics\Android\multibiometric-sample\src\main\AndroidManifest.xml:25:2-59
+	android:name
+		ADDED from C:\Users\Cristian\Desktop\Neurotec_Biometric_11_2_SDK\Samples\Biometrics\Android\multibiometric-sample\src\main\AndroidManifest.xml:25:16-56
+application
+ADDED from C:\Users\Cristian\Desktop\Neurotec_Biometric_11_2_SDK\Samples\Biometrics\Android\multibiometric-sample\src\main\AndroidManifest.xml:27:2-133:16
+	package
+		ADDED from C:\Users\Cristian\Desktop\Neurotec_Biometric_11_2_SDK\Samples\Biometrics\Android\multibiometric-sample\src\main\AndroidManifest.xml:31:3-48
+	android:label
+		ADDED from C:\Users\Cristian\Desktop\Neurotec_Biometric_11_2_SDK\Samples\Biometrics\Android\multibiometric-sample\src\main\AndroidManifest.xml:34:3-35
+	android:hardwareAccelerated
+		ADDED from C:\Users\Cristian\Desktop\Neurotec_Biometric_11_2_SDK\Samples\Biometrics\Android\multibiometric-sample\src\main\AndroidManifest.xml:29:3-37
+	android:icon
+		ADDED from C:\Users\Cristian\Desktop\Neurotec_Biometric_11_2_SDK\Samples\Biometrics\Android\multibiometric-sample\src\main\AndroidManifest.xml:32:3-87
+	android:theme
+		ADDED from C:\Users\Cristian\Desktop\Neurotec_Biometric_11_2_SDK\Samples\Biometrics\Android\multibiometric-sample\src\main\AndroidManifest.xml:33:3-50
+	tools:replace
+		ADDED from C:\Users\Cristian\Desktop\Neurotec_Biometric_11_2_SDK\Samples\Biometrics\Android\multibiometric-sample\src\main\AndroidManifest.xml:28:3-31
+	android:name
+		ADDED from C:\Users\Cristian\Desktop\Neurotec_Biometric_11_2_SDK\Samples\Biometrics\Android\multibiometric-sample\src\main\AndroidManifest.xml:30:3-38
+activity#com.neurotec.samples.app.InfoActivity
+ADDED from C:\Users\Cristian\Desktop\Neurotec_Biometric_11_2_SDK\Samples\Biometrics\Android\multibiometric-sample\src\main\AndroidManifest.xml:37:3-77
+	android:name
+		ADDED from C:\Users\Cristian\Desktop\Neurotec_Biometric_11_2_SDK\Samples\Biometrics\Android\multibiometric-sample\src\main\AndroidManifest.xml:37:13-65
+activity#com.neurotec.samples.app.DirectoryViewer
+ADDED from C:\Users\Cristian\Desktop\Neurotec_Biometric_11_2_SDK\Samples\Biometrics\Android\multibiometric-sample\src\main\AndroidManifest.xml:38:3-80
+	android:name
+		ADDED from C:\Users\Cristian\Desktop\Neurotec_Biometric_11_2_SDK\Samples\Biometrics\Android\multibiometric-sample\src\main\AndroidManifest.xml:38:13-68
+activity#com.neurotec.licensing.gui.ActivationActivity
+ADDED from C:\Users\Cristian\Desktop\Neurotec_Biometric_11_2_SDK\Samples\Biometrics\Android\multibiometric-sample\src\main\AndroidManifest.xml:41:3-43:53
+	android:theme
+		ADDED from C:\Users\Cristian\Desktop\Neurotec_Biometric_11_2_SDK\Samples\Biometrics\Android\multibiometric-sample\src\main\AndroidManifest.xml:43:4-51
+	android:name
+		ADDED from C:\Users\Cristian\Desktop\Neurotec_Biometric_11_2_SDK\Samples\Biometrics\Android\multibiometric-sample\src\main\AndroidManifest.xml:42:4-64
+activity#com.neurotec.samples.multibiometric.multimodal.MultiModalActivity
+ADDED from C:\Users\Cristian\Desktop\Neurotec_Biometric_11_2_SDK\Samples\Biometrics\Android\multibiometric-sample\src\main\AndroidManifest.xml:46:3-55:14
+	android:screenOrientation
+		ADDED from C:\Users\Cristian\Desktop\Neurotec_Biometric_11_2_SDK\Samples\Biometrics\Android\multibiometric-sample\src\main\AndroidManifest.xml:50:4-40
+	android:hardwareAccelerated
+		ADDED from C:\Users\Cristian\Desktop\Neurotec_Biometric_11_2_SDK\Samples\Biometrics\Android\multibiometric-sample\src\main\AndroidManifest.xml:48:4-39
+	android:taskAffinity
+		ADDED from C:\Users\Cristian\Desktop\Neurotec_Biometric_11_2_SDK\Samples\Biometrics\Android\multibiometric-sample\src\main\AndroidManifest.xml:49:4-73
+	android:name
+		ADDED from C:\Users\Cristian\Desktop\Neurotec_Biometric_11_2_SDK\Samples\Biometrics\Android\multibiometric-sample\src\main\AndroidManifest.xml:47:4-49
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\Cristian\Desktop\Neurotec_Biometric_11_2_SDK\Samples\Biometrics\Android\multibiometric-sample\src\main\AndroidManifest.xml:51:4-54:20
+action#android.intent.action.MAIN
+ADDED from C:\Users\Cristian\Desktop\Neurotec_Biometric_11_2_SDK\Samples\Biometrics\Android\multibiometric-sample\src\main\AndroidManifest.xml:52:5-57
+	android:name
+		ADDED from C:\Users\Cristian\Desktop\Neurotec_Biometric_11_2_SDK\Samples\Biometrics\Android\multibiometric-sample\src\main\AndroidManifest.xml:52:13-54
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\Cristian\Desktop\Neurotec_Biometric_11_2_SDK\Samples\Biometrics\Android\multibiometric-sample\src\main\AndroidManifest.xml:53:5-65
+	android:name
+		ADDED from C:\Users\Cristian\Desktop\Neurotec_Biometric_11_2_SDK\Samples\Biometrics\Android\multibiometric-sample\src\main\AndroidManifest.xml:53:15-62
+activity#com.neurotec.samples.multibiometric.multimodal.FaceActivity
+ADDED from C:\Users\Cristian\Desktop\Neurotec_Biometric_11_2_SDK\Samples\Biometrics\Android\multibiometric-sample\src\main\AndroidManifest.xml:57:3-62:14
+	android:screenOrientation
+		ADDED from C:\Users\Cristian\Desktop\Neurotec_Biometric_11_2_SDK\Samples\Biometrics\Android\multibiometric-sample\src\main\AndroidManifest.xml:60:4-40
+	android:label
+		ADDED from C:\Users\Cristian\Desktop\Neurotec_Biometric_11_2_SDK\Samples\Biometrics\Android\multibiometric-sample\src\main\AndroidManifest.xml:59:4-41
+	android:hardwareAccelerated
+		ADDED from C:\Users\Cristian\Desktop\Neurotec_Biometric_11_2_SDK\Samples\Biometrics\Android\multibiometric-sample\src\main\AndroidManifest.xml:61:4-38
+	android:name
+		ADDED from C:\Users\Cristian\Desktop\Neurotec_Biometric_11_2_SDK\Samples\Biometrics\Android\multibiometric-sample\src\main\AndroidManifest.xml:58:4-43
+activity#com.neurotec.samples.multibiometric.multimodal.FingerActivity
+ADDED from C:\Users\Cristian\Desktop\Neurotec_Biometric_11_2_SDK\Samples\Biometrics\Android\multibiometric-sample\src\main\AndroidManifest.xml:64:3-69:14
+	android:screenOrientation
+		ADDED from C:\Users\Cristian\Desktop\Neurotec_Biometric_11_2_SDK\Samples\Biometrics\Android\multibiometric-sample\src\main\AndroidManifest.xml:67:4-40
+	android:label
+		ADDED from C:\Users\Cristian\Desktop\Neurotec_Biometric_11_2_SDK\Samples\Biometrics\Android\multibiometric-sample\src\main\AndroidManifest.xml:66:4-43
+	android:hardwareAccelerated
+		ADDED from C:\Users\Cristian\Desktop\Neurotec_Biometric_11_2_SDK\Samples\Biometrics\Android\multibiometric-sample\src\main\AndroidManifest.xml:68:4-38
+	android:name
+		ADDED from C:\Users\Cristian\Desktop\Neurotec_Biometric_11_2_SDK\Samples\Biometrics\Android\multibiometric-sample\src\main\AndroidManifest.xml:65:4-45
+activity#com.neurotec.samples.multibiometric.multimodal.IrisActivity
+ADDED from C:\Users\Cristian\Desktop\Neurotec_Biometric_11_2_SDK\Samples\Biometrics\Android\multibiometric-sample\src\main\AndroidManifest.xml:71:3-76:14
+	android:screenOrientation
+		ADDED from C:\Users\Cristian\Desktop\Neurotec_Biometric_11_2_SDK\Samples\Biometrics\Android\multibiometric-sample\src\main\AndroidManifest.xml:74:4-40
+	android:label
+		ADDED from C:\Users\Cristian\Desktop\Neurotec_Biometric_11_2_SDK\Samples\Biometrics\Android\multibiometric-sample\src\main\AndroidManifest.xml:73:4-41
+	android:hardwareAccelerated
+		ADDED from C:\Users\Cristian\Desktop\Neurotec_Biometric_11_2_SDK\Samples\Biometrics\Android\multibiometric-sample\src\main\AndroidManifest.xml:75:4-38
+	android:name
+		ADDED from C:\Users\Cristian\Desktop\Neurotec_Biometric_11_2_SDK\Samples\Biometrics\Android\multibiometric-sample\src\main\AndroidManifest.xml:72:4-43
+activity#com.neurotec.samples.multibiometric.multimodal.VoiceActivity
+ADDED from C:\Users\Cristian\Desktop\Neurotec_Biometric_11_2_SDK\Samples\Biometrics\Android\multibiometric-sample\src\main\AndroidManifest.xml:78:3-83:14
+	android:screenOrientation
+		ADDED from C:\Users\Cristian\Desktop\Neurotec_Biometric_11_2_SDK\Samples\Biometrics\Android\multibiometric-sample\src\main\AndroidManifest.xml:81:4-40
+	android:label
+		ADDED from C:\Users\Cristian\Desktop\Neurotec_Biometric_11_2_SDK\Samples\Biometrics\Android\multibiometric-sample\src\main\AndroidManifest.xml:80:4-42
+	android:hardwareAccelerated
+		ADDED from C:\Users\Cristian\Desktop\Neurotec_Biometric_11_2_SDK\Samples\Biometrics\Android\multibiometric-sample\src\main\AndroidManifest.xml:82:4-38
+	android:name
+		ADDED from C:\Users\Cristian\Desktop\Neurotec_Biometric_11_2_SDK\Samples\Biometrics\Android\multibiometric-sample\src\main\AndroidManifest.xml:79:4-44
+activity#com.neurotec.samples.multibiometric.preferences.MultimodalPreferences
+ADDED from C:\Users\Cristian\Desktop\Neurotec_Biometric_11_2_SDK\Samples\Biometrics\Android\multibiometric-sample\src\main\AndroidManifest.xml:86:3-93:14
+	android:screenOrientation
+		ADDED from C:\Users\Cristian\Desktop\Neurotec_Biometric_11_2_SDK\Samples\Biometrics\Android\multibiometric-sample\src\main\AndroidManifest.xml:88:4-40
+	android:parentActivityName
+		ADDED from C:\Users\Cristian\Desktop\Neurotec_Biometric_11_2_SDK\Samples\Biometrics\Android\multibiometric-sample\src\main\AndroidManifest.xml:89:4-98
+	android:name
+		ADDED from C:\Users\Cristian\Desktop\Neurotec_Biometric_11_2_SDK\Samples\Biometrics\Android\multibiometric-sample\src\main\AndroidManifest.xml:87:4-53
+meta-data#android.support.PARENT_ACTIVITY
+ADDED from C:\Users\Cristian\Desktop\Neurotec_Biometric_11_2_SDK\Samples\Biometrics\Android\multibiometric-sample\src\main\AndroidManifest.xml:90:4-92:89
+	android:value
+		ADDED from C:\Users\Cristian\Desktop\Neurotec_Biometric_11_2_SDK\Samples\Biometrics\Android\multibiometric-sample\src\main\AndroidManifest.xml:92:5-86
+	android:name
+		ADDED from C:\Users\Cristian\Desktop\Neurotec_Biometric_11_2_SDK\Samples\Biometrics\Android\multibiometric-sample\src\main\AndroidManifest.xml:91:5-51
+activity#com.neurotec.samples.multibiometric.preferences.FacePreferences
+ADDED from C:\Users\Cristian\Desktop\Neurotec_Biometric_11_2_SDK\Samples\Biometrics\Android\multibiometric-sample\src\main\AndroidManifest.xml:95:3-103:14
+	android:screenOrientation
+		ADDED from C:\Users\Cristian\Desktop\Neurotec_Biometric_11_2_SDK\Samples\Biometrics\Android\multibiometric-sample\src\main\AndroidManifest.xml:98:4-40
+	android:parentActivityName
+		ADDED from C:\Users\Cristian\Desktop\Neurotec_Biometric_11_2_SDK\Samples\Biometrics\Android\multibiometric-sample\src\main\AndroidManifest.xml:99:4-92
+	android:label
+		ADDED from C:\Users\Cristian\Desktop\Neurotec_Biometric_11_2_SDK\Samples\Biometrics\Android\multibiometric-sample\src\main\AndroidManifest.xml:97:4-41
+	android:name
+		ADDED from C:\Users\Cristian\Desktop\Neurotec_Biometric_11_2_SDK\Samples\Biometrics\Android\multibiometric-sample\src\main\AndroidManifest.xml:96:4-47
+activity#com.neurotec.samples.multibiometric.preferences.FingerPreferences
+ADDED from C:\Users\Cristian\Desktop\Neurotec_Biometric_11_2_SDK\Samples\Biometrics\Android\multibiometric-sample\src\main\AndroidManifest.xml:105:3-113:14
+	android:screenOrientation
+		ADDED from C:\Users\Cristian\Desktop\Neurotec_Biometric_11_2_SDK\Samples\Biometrics\Android\multibiometric-sample\src\main\AndroidManifest.xml:108:4-40
+	android:parentActivityName
+		ADDED from C:\Users\Cristian\Desktop\Neurotec_Biometric_11_2_SDK\Samples\Biometrics\Android\multibiometric-sample\src\main\AndroidManifest.xml:109:4-94
+	android:label
+		ADDED from C:\Users\Cristian\Desktop\Neurotec_Biometric_11_2_SDK\Samples\Biometrics\Android\multibiometric-sample\src\main\AndroidManifest.xml:107:4-43
+	android:name
+		ADDED from C:\Users\Cristian\Desktop\Neurotec_Biometric_11_2_SDK\Samples\Biometrics\Android\multibiometric-sample\src\main\AndroidManifest.xml:106:4-49
+activity#com.neurotec.samples.multibiometric.preferences.IrisPreferences
+ADDED from C:\Users\Cristian\Desktop\Neurotec_Biometric_11_2_SDK\Samples\Biometrics\Android\multibiometric-sample\src\main\AndroidManifest.xml:115:3-122:14
+	android:screenOrientation
+		ADDED from C:\Users\Cristian\Desktop\Neurotec_Biometric_11_2_SDK\Samples\Biometrics\Android\multibiometric-sample\src\main\AndroidManifest.xml:117:4-40
+	android:parentActivityName
+		ADDED from C:\Users\Cristian\Desktop\Neurotec_Biometric_11_2_SDK\Samples\Biometrics\Android\multibiometric-sample\src\main\AndroidManifest.xml:118:4-92
+	android:label
+		ADDED from C:\Users\Cristian\Desktop\Neurotec_Biometric_11_2_SDK\Samples\Biometrics\Android\multibiometric-sample\src\main\AndroidManifest.xml:116:4-41
+	android:name
+		ADDED from C:\Users\Cristian\Desktop\Neurotec_Biometric_11_2_SDK\Samples\Biometrics\Android\multibiometric-sample\src\main\AndroidManifest.xml:115:13-56
+activity#com.neurotec.samples.multibiometric.preferences.VoicePreferences
+ADDED from C:\Users\Cristian\Desktop\Neurotec_Biometric_11_2_SDK\Samples\Biometrics\Android\multibiometric-sample\src\main\AndroidManifest.xml:124:3-131:14
+	android:screenOrientation
+		ADDED from C:\Users\Cristian\Desktop\Neurotec_Biometric_11_2_SDK\Samples\Biometrics\Android\multibiometric-sample\src\main\AndroidManifest.xml:126:4-40
+	android:parentActivityName
+		ADDED from C:\Users\Cristian\Desktop\Neurotec_Biometric_11_2_SDK\Samples\Biometrics\Android\multibiometric-sample\src\main\AndroidManifest.xml:127:4-93
+	android:label
+		ADDED from C:\Users\Cristian\Desktop\Neurotec_Biometric_11_2_SDK\Samples\Biometrics\Android\multibiometric-sample\src\main\AndroidManifest.xml:125:4-42
+	android:name
+		ADDED from C:\Users\Cristian\Desktop\Neurotec_Biometric_11_2_SDK\Samples\Biometrics\Android\multibiometric-sample\src\main\AndroidManifest.xml:124:13-57
+uses-sdk
+INJECTED from C:\Users\Cristian\Desktop\Neurotec_Biometric_11_2_SDK\Samples\Biometrics\Android\multibiometric-sample\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\Cristian\Desktop\Neurotec_Biometric_11_2_SDK\Samples\Biometrics\Android\multibiometric-sample\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Cristian\Desktop\Neurotec_Biometric_11_2_SDK\Samples\Biometrics\Android\multibiometric-sample\src\main\AndroidManifest.xml
+MERGED from [:neurotec-biometrics-gui-android:] C:\Users\Cristian\.gradle\caches\transforms-2\files-2.1\1d0f669f60c403b2bbe4013a10c20f9a\AndroidManifest.xml:7:2-8:35
+MERGED from [:neurotec-biometrics-gui-android:] C:\Users\Cristian\.gradle\caches\transforms-2\files-2.1\1d0f669f60c403b2bbe4013a10c20f9a\AndroidManifest.xml:7:2-8:35
+MERGED from [:samples-utils] C:\Users\Cristian\Desktop\Neurotec_Biometric_11_2_SDK\Samples\Common\Android\utils\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:7:5-9:41
+MERGED from [:samples-utils] C:\Users\Cristian\Desktop\Neurotec_Biometric_11_2_SDK\Samples\Common\Android\utils\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:support-v4:27.1.1] C:\Users\Cristian\.gradle\caches\transforms-2\files-2.1\67a701b92b27317acb419deada232a6a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.1.1] C:\Users\Cristian\.gradle\caches\transforms-2\files-2.1\67a701b92b27317acb419deada232a6a\AndroidManifest.xml:20:5-44
+MERGED from [:neurotec-licensing-gui-android:] C:\Users\Cristian\.gradle\caches\transforms-2\files-2.1\2781a0b2dd75a51755d62293db338491\AndroidManifest.xml:7:2-8:35
+MERGED from [:neurotec-licensing-gui-android:] C:\Users\Cristian\.gradle\caches\transforms-2\files-2.1\2781a0b2dd75a51755d62293db338491\AndroidManifest.xml:7:2-8:35
+MERGED from [com.android.support:support-media-compat:27.1.1] C:\Users\Cristian\.gradle\caches\transforms-2\files-2.1\65d4325da0a848041d54aedbee6c89f8\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.1.1] C:\Users\Cristian\.gradle\caches\transforms-2\files-2.1\65d4325da0a848041d54aedbee6c89f8\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\Cristian\.gradle\caches\transforms-2\files-2.1\5fadcd7dbef72873945a991cca54d003\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\Cristian\.gradle\caches\transforms-2\files-2.1\5fadcd7dbef72873945a991cca54d003\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\Cristian\.gradle\caches\transforms-2\files-2.1\6cd27ccadcffdee49ff4826f4dabc12a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\Cristian\.gradle\caches\transforms-2\files-2.1\6cd27ccadcffdee49ff4826f4dabc12a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\Cristian\.gradle\caches\transforms-2\files-2.1\543494421e29aa606c4cd01724c182c9\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\Cristian\.gradle\caches\transforms-2\files-2.1\543494421e29aa606c4cd01724c182c9\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] C:\Users\Cristian\.gradle\caches\transforms-2\files-2.1\4f9e2cfbef2945db1cf05d685a481f4f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] C:\Users\Cristian\.gradle\caches\transforms-2\files-2.1\4f9e2cfbef2945db1cf05d685a481f4f\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\Cristian\.gradle\caches\transforms-2\files-2.1\ceb068329be45303f8a66eedfe731b64\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\Cristian\.gradle\caches\transforms-2\files-2.1\ceb068329be45303f8a66eedfe731b64\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\Cristian\.gradle\caches\transforms-2\files-2.1\31333e6a7515e9c7d5ddf3311001217b\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\Cristian\.gradle\caches\transforms-2\files-2.1\31333e6a7515e9c7d5ddf3311001217b\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\Cristian\.gradle\caches\transforms-2\files-2.1\a2785a7e56decf9a45a2dff1cd3143ce\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\Cristian\.gradle\caches\transforms-2\files-2.1\a2785a7e56decf9a45a2dff1cd3143ce\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] C:\Users\Cristian\.gradle\caches\transforms-2\files-2.1\fc1aac942f58a63deef3824893594ee9\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] C:\Users\Cristian\.gradle\caches\transforms-2\files-2.1\fc1aac942f58a63deef3824893594ee9\AndroidManifest.xml:20:5-44
+INJECTED from C:\Users\Cristian\Desktop\Neurotec_Biometric_11_2_SDK\Samples\Biometrics\Android\multibiometric-sample\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Cristian\Desktop\Neurotec_Biometric_11_2_SDK\Samples\Biometrics\Android\multibiometric-sample\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from C:\Users\Cristian\Desktop\Neurotec_Biometric_11_2_SDK\Samples\Biometrics\Android\multibiometric-sample\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Cristian\Desktop\Neurotec_Biometric_11_2_SDK\Samples\Biometrics\Android\multibiometric-sample\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Cristian\Desktop\Neurotec_Biometric_11_2_SDK\Samples\Biometrics\Android\multibiometric-sample\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\Cristian\Desktop\Neurotec_Biometric_11_2_SDK\Samples\Biometrics\Android\multibiometric-sample\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Cristian\Desktop\Neurotec_Biometric_11_2_SDK\Samples\Biometrics\Android\multibiometric-sample\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Cristian\Desktop\Neurotec_Biometric_11_2_SDK\Samples\Biometrics\Android\multibiometric-sample\src\main\AndroidManifest.xml

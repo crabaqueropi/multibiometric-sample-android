@@ -1,0 +1,954 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="camera_flash_mode_names">
+		<item>Off</item>
+		<item>On demand</item>
+		<item>On</item>
+	</string-array>
+    <string-array name="camera_flash_mode_values">
+		<item>OFF</item>
+		<item>ON_DEMAND</item>
+		<item>ON</item>
+	</string-array>
+    <string-array name="face_liveness_names">
+		<item>None</item>
+		<item>Passive</item>
+		<item>Active</item>
+		<item>Passive and active</item>
+		<item>Simple</item>
+		<item>Custom</item>
+	</string-array>
+    <string-array name="face_liveness_values">
+		<item>0</item>
+		<item>1</item>
+		<item>2</item>
+		<item>3</item>
+		<item>4</item>
+		<item>5</item>
+	</string-array>
+    <string-array name="face_maching_speed_names">
+		<item>Low</item>
+		<item>High</item>
+	</string-array>
+    <string-array name="face_maching_speed_values">
+		<item>0</item>
+		<item>256</item>
+	</string-array>
+    <string-array name="face_template_size_names">
+		<!-- Temporarily disabling <item>Compact (~2.2KB)</item> -->
+		<item>Small</item>
+		<item>Medium</item>
+	</string-array>
+    <string-array name="face_template_size_values">
+		<!-- Temporarily disabling <item >0</item> -->
+		<item>64</item>
+		<item>128</item>
+	</string-array>
+    <string-array name="face_threshold_names">
+		<item>10%%</item>
+		<item>1%%</item>
+		<item>0.1%%</item>
+		<item>0.01%%</item>
+		<item>0.001%%</item>
+		<item>0.0001%%</item>
+	</string-array>
+    <string-array name="face_threshold_values">
+		<item>12</item>
+		<item>24</item>
+		<item>36</item>
+		<item>48</item>
+		<item>60</item>
+		<item>72</item>
+	</string-array>
+    <string-array name="finger_maching_speed_names">
+		<item>Low</item>
+		<item>High</item>
+	</string-array>
+    <string-array name="finger_maching_speed_values">
+		<item>0</item>
+		<item>256</item>
+	</string-array>
+    <string-array name="finger_returned_image">
+		<item>None</item>
+		<item>Binarized</item>
+		<item>Skeletonized</item>
+	</string-array>
+    <string-array name="finger_returned_image_values">
+		<item>0</item>
+		<item>1</item>
+		<item>2</item>
+	</string-array>
+    <string-array name="finger_ridge_counts">
+		<item>None</item>
+		<item>Four neighbors</item>
+		<item>Eight neighbors</item>
+		<item>Four neighbors with indexes</item>
+		<item>Eight neighbors with indexes</item>
+	</string-array>
+    <string-array name="finger_ridge_counts_values">
+		<item>0</item>
+		<item>1</item>
+		<item>2</item>
+		<item>5</item>
+		<item>6</item>
+	</string-array>
+    <string-array name="finger_template_size_names">
+		<!-- Temporarily disabling <item>Compact</item> -->
+		<item>Small</item>
+		<item>Medium</item>
+	</string-array>
+    <string-array name="finger_template_size_values">
+		<!-- Temporarily disabling <item>0</item> -->
+		<item>64</item>
+		<item>128</item>
+	</string-array>
+    <string-array name="finger_threshold_names">
+		<item>10%</item>
+		<item>1%</item>
+		<item>0.1%</item>
+		<item>0.01%</item>
+		<item>0.001%</item>
+		<item>0.0001%</item>
+	</string-array>
+    <string-array name="finger_threshold_values">
+		<item>12</item>
+		<item>24</item>
+		<item>36</item>
+		<item>48</item>
+		<item>60</item>
+		<item>72</item>
+	</string-array>
+    <string-array name="image_assets_file_extensions">
+		<item>jpg</item>
+		<item>jpeg</item>
+		<item>bmp</item>
+		<item>png</item>
+		<item>gif</item>
+	</string-array>
+    <string-array name="iris_maching_speed_names">
+		<item>Low</item>
+		<item>Medium</item>
+	</string-array>
+    <string-array name="iris_maching_speed_values">
+		<item>0</item>
+		<item>128</item>
+	</string-array>
+    <string-array name="iris_template_size_names">
+		<!-- Temporarily disabling <item>Compact</item> -->
+		<item>Small</item>
+		<item>Medium</item>
+	</string-array>
+    <string-array name="iris_template_size_values">
+		<!-- Temporarily disabling <item>0</item> -->
+		<item>64</item>
+		<item>128</item>
+	</string-array>
+    <string-array name="iris_threshold_names">
+		<item>10%</item>
+		<item>1%</item>
+		<item>0.1%</item>
+		<item>0.01%</item>
+		<item>0.001%</item>
+		<item>0.0001%</item>
+	</string-array>
+    <string-array name="iris_threshold_values">
+		<item>12</item>
+		<item>24</item>
+		<item>36</item>
+		<item>48</item>
+		<item>60</item>
+		<item>72</item>
+	</string-array>
+    <string-array name="licensing_mode_names">
+		<item>From File</item>
+		<item>From PC</item>
+	</string-array>
+    <string-array name="licensing_mode_values">
+		<item>FROM_FILE</item>
+		<item>FROM_PC</item>
+	</string-array>
+    <string-array name="trial_licensing_mode_names">
+		<item>Directly</item>
+		<item>From PC</item>
+	</string-array>
+    <string-array name="trial_licensing_mode_values">
+		<item>DIRECTLY</item>
+		<item>FROM_PC</item>
+	</string-array>
+    <string-array name="voice_extraction_mode_names">
+		<item>Text dependent</item>
+		<item>Text independent</item>
+	</string-array>
+    <string-array name="voice_maching_speed_names">
+		<item>Low</item>
+		<item>High</item>
+	</string-array>
+    <string-array name="voice_maching_speed_values">
+		<item>0</item>
+		<item>256</item>
+	</string-array>
+    <string-array name="voice_threshold_names">
+		<item>10%</item>
+		<item>5%</item>
+		<item>1%</item>
+		<item>0.1%</item>
+	</string-array>
+    <string-array name="voice_threshold_values">
+		<item>12</item>
+		<item>16</item>
+		<item>24</item>
+		<item>36</item>
+	</string-array>
+    <attr format="reference" name="coordinatorLayoutStyle"/>
+    <color name="black">#000000</color>
+    <color name="license_activation_button_pressed">#263238</color>
+    <color name="license_activation_button_unpressed">#808080</color>
+    <color name="md_blue_100">#BBDEFB</color>
+    <color name="md_blue_200">#90CAF9</color>
+    <color name="md_blue_300">#64B5F6</color>
+    <color name="md_blue_400">#42A5F5</color>
+    <color name="md_blue_50">#E3F2FD</color>
+    <color name="md_blue_500">#2196F3</color>
+    <color name="md_blue_600">#1E88E5</color>
+    <color name="md_blue_700">#1976D2</color>
+    <color name="md_blue_800">#1565C0</color>
+    <color name="md_blue_900">#0D47A1</color>
+    <color name="md_blue_A100">#82B1FF</color>
+    <color name="md_blue_A200">#448AFF</color>
+    <color name="md_blue_A400">#2979FF</color>
+    <color name="md_blue_A700">#2962FF</color>
+    <color name="md_blue_grey_100">#CFD8DC</color>
+    <color name="md_blue_grey_200">#B0BBC5</color>
+    <color name="md_blue_grey_300">#90A4AE</color>
+    <color name="md_blue_grey_400">#78909C</color>
+    <color name="md_blue_grey_50">#ECEFF1</color>
+    <color name="md_blue_grey_500">#607D8B</color>
+    <color name="md_blue_grey_600">#546E7A</color>
+    <color name="md_blue_grey_700">#455A64</color>
+    <color name="md_blue_grey_800">#37474F</color>
+    <color name="md_blue_grey_900">#263238</color>
+    <color name="md_cyan_100">#B2EBF2</color>
+    <color name="md_cyan_200">#80DEEA</color>
+    <color name="md_cyan_300">#4DD0E1</color>
+    <color name="md_cyan_400">#26C6DA</color>
+    <color name="md_cyan_50">#E0F7FA</color>
+    <color name="md_cyan_500">#00BCD4</color>
+    <color name="md_cyan_600">#00ACC1</color>
+    <color name="md_cyan_700">#0097A7</color>
+    <color name="md_cyan_800">#00838F</color>
+    <color name="md_cyan_900">#006064</color>
+    <color name="md_cyan_A100">#84FFFF</color>
+    <color name="md_cyan_A200">#18FFFF</color>
+    <color name="md_cyan_A400">#00E5FF</color>
+    <color name="md_cyan_A700">#00B8D4</color>
+    <color name="md_green_100">#C8E6C9</color>
+    <color name="md_green_200">#A5D6A7</color>
+    <color name="md_green_300">#81C784</color>
+    <color name="md_green_400">#66BB6A</color>
+    <color name="md_green_50">#E8F5E9</color>
+    <color name="md_green_500">#4CAF50</color>
+    <color name="md_green_600">#43A047</color>
+    <color name="md_green_700">#388E3C</color>
+    <color name="md_green_800">#2E7D32</color>
+    <color name="md_green_900">#1B5E20</color>
+    <color name="md_green_A100">#B9F6CA</color>
+    <color name="md_green_A200">#69F0AE</color>
+    <color name="md_green_A400">#00E676</color>
+    <color name="md_green_A700">#00C853</color>
+    <color name="md_indigo_100">#C5CAE9</color>
+    <color name="md_indigo_200">#9FA8DA</color>
+    <color name="md_indigo_300">#7986CB</color>
+    <color name="md_indigo_400">#5C6BC0</color>
+    <color name="md_indigo_50">#E8EAF6</color>
+    <color name="md_indigo_500">#3F51B5</color>
+    <color name="md_indigo_600">#3949AB</color>
+    <color name="md_indigo_700">#303F9F</color>
+    <color name="md_indigo_800">#283593</color>
+    <color name="md_indigo_900">#1A237E</color>
+    <color name="md_indigo_A100">#8C9EFF</color>
+    <color name="md_indigo_A200">#536DFE</color>
+    <color name="md_indigo_A400">#3D5AFE</color>
+    <color name="md_indigo_A700">#304FFE</color>
+    <color name="md_light_blue_100">#B3E5FC</color>
+    <color name="md_light_blue_200">#81D4fA</color>
+    <color name="md_light_blue_300">#4fC3F7</color>
+    <color name="md_light_blue_400">#29B6FC</color>
+    <color name="md_light_blue_50">#E1F5FE</color>
+    <color name="md_light_blue_500">#03A9F4</color>
+    <color name="md_light_blue_600">#039BE5</color>
+    <color name="md_light_blue_700">#0288D1</color>
+    <color name="md_light_blue_800">#0277BD</color>
+    <color name="md_light_blue_900">#01579B</color>
+    <color name="md_light_blue_A100">#80D8FF</color>
+    <color name="md_light_blue_A200">#40C4FF</color>
+    <color name="md_light_blue_A400">#00B0FF</color>
+    <color name="md_light_blue_A700">#0091EA</color>
+    <color name="md_light_green_100">#DCEDC8</color>
+    <color name="md_light_green_200">#C5E1A5</color>
+    <color name="md_light_green_300">#AED581</color>
+    <color name="md_light_green_400">#9CCC65</color>
+    <color name="md_light_green_50">#F1F8E9</color>
+    <color name="md_light_green_500">#8BC34A</color>
+    <color name="md_light_green_600">#7CB342</color>
+    <color name="md_light_green_700">#689F38</color>
+    <color name="md_light_green_800">#558B2F</color>
+    <color name="md_light_green_900">#33691E</color>
+    <color name="md_light_green_A100">#CCFF90</color>
+    <color name="md_light_green_A200">#B2FF59</color>
+    <color name="md_light_green_A400">#76FF03</color>
+    <color name="md_light_green_A700">#64DD17</color>
+    <color name="md_lime_100">#F0F4C3</color>
+    <color name="md_lime_200">#E6EE9C</color>
+    <color name="md_lime_300">#DCE775</color>
+    <color name="md_lime_400">#D4E157</color>
+    <color name="md_lime_50">#F9FBE7</color>
+    <color name="md_lime_500">#CDDC39</color>
+    <color name="md_lime_600">#C0CA33</color>
+    <color name="md_lime_700">#A4B42B</color>
+    <color name="md_lime_800">#9E9D24</color>
+    <color name="md_lime_900">#827717</color>
+    <color name="md_lime_A100">#F4FF81</color>
+    <color name="md_lime_A200">#EEFF41</color>
+    <color name="md_lime_A400">#C6FF00</color>
+    <color name="md_lime_A700">#AEEA00</color>
+    <color name="md_teal_100">#B2DFDB</color>
+    <color name="md_teal_200">#80CBC4</color>
+    <color name="md_teal_300">#4DB6AC</color>
+    <color name="md_teal_400">#26A69A</color>
+    <color name="md_teal_50">#E0F2F1</color>
+    <color name="md_teal_500">#009688</color>
+    <color name="md_teal_600">#00897B</color>
+    <color name="md_teal_700">#00796B</color>
+    <color name="md_teal_800">#00695C</color>
+    <color name="md_teal_900">#004D40</color>
+    <color name="md_teal_A100">#A7FFEB</color>
+    <color name="md_teal_A200">#64FFDA</color>
+    <color name="md_teal_A400">#1DE9B6</color>
+    <color name="md_teal_A700">#00BFA5</color>
+    <color name="notification_action_color_filter">#ffffffff</color>
+    <color name="notification_icon_bg_color">#ff9e9e9e</color>
+    <color name="notification_material_background_media_default_color">#ff424242</color>
+    <color name="primary_text_default_material_dark">#ffffffff</color>
+    <color name="result_view">#b0000000</color>
+    <color name="result_view_text">#bbbbbb</color>
+    <color name="ripple_material_light">#1f000000</color>
+    <color name="secondary_text_default_material_dark">#b3ffffff</color>
+    <color name="secondary_text_default_material_light">#8a000000</color>
+    <color name="transparent">#00000000</color>
+    <color name="white">#FFFFFF</color>
+    <declare-styleable name="CoordinatorLayout"><attr format="reference" name="keylines"/><attr format="color|reference" name="statusBarBackground"/></declare-styleable>
+    <declare-styleable name="CoordinatorLayout_Layout"><attr name="android:layout_gravity"/><attr format="string" name="layout_behavior"/><attr format="reference" name="layout_anchor"/><attr format="integer" name="layout_keyline"/><attr name="layout_anchorGravity">
+            
+            <flag name="top" value="0x30"/>
+            
+            <flag name="bottom" value="0x50"/>
+            
+            <flag name="left" value="0x03"/>
+            
+            <flag name="right" value="0x05"/>
+            
+            <flag name="center_vertical" value="0x10"/>
+            
+            <flag name="fill_vertical" value="0x70"/>
+            
+            <flag name="center_horizontal" value="0x01"/>
+            
+            <flag name="fill_horizontal" value="0x07"/>
+            
+            <flag name="center" value="0x11"/>
+            
+            <flag name="fill" value="0x77"/>
+            
+            <flag name="clip_vertical" value="0x80"/>
+            
+            <flag name="clip_horizontal" value="0x08"/>
+            
+            <flag name="start" value="0x00800003"/>
+            
+            <flag name="end" value="0x00800005"/>
+        </attr><attr format="enum" name="layout_insetEdge">
+            
+            <enum name="none" value="0x0"/>
+            
+            <enum name="top" value="0x30"/>
+            
+            <enum name="bottom" value="0x50"/>
+            
+            <enum name="left" value="0x03"/>
+            
+            <enum name="right" value="0x05"/>
+            
+            <enum name="start" value="0x00800003"/>
+            
+            <enum name="end" value="0x00800005"/>
+        </attr><attr name="layout_dodgeInsetEdges">
+            
+            <flag name="none" value="0x0"/>
+            
+            <flag name="top" value="0x30"/>
+            
+            <flag name="bottom" value="0x50"/>
+            
+            <flag name="left" value="0x03"/>
+            
+            <flag name="right" value="0x05"/>
+            
+            <flag name="start" value="0x00800003"/>
+            
+            <flag name="end" value="0x00800005"/>
+            
+            <flag name="all" value="0x77"/>
+        </attr></declare-styleable>
+    <declare-styleable name="FontFamily"><attr format="string" name="fontProviderAuthority"/><attr format="string" name="fontProviderPackage"/><attr format="string" name="fontProviderQuery"/><attr format="reference" name="fontProviderCerts"/><attr name="fontProviderFetchStrategy">
+            
+            <enum name="blocking" value="0"/>
+            
+            <enum name="async" value="1"/>
+        </attr><attr format="integer" name="fontProviderFetchTimeout">
+          
+            <enum name="forever" value="-1"/>
+        </attr></declare-styleable>
+    <declare-styleable name="FontFamilyFont"><attr name="fontStyle">
+            <enum name="normal" value="0"/>
+            <enum name="italic" value="1"/>
+        </attr><attr format="reference" name="font"/><attr format="integer" name="fontWeight"/><attr name="android:fontStyle"/><attr name="android:font"/><attr name="android:fontWeight"/></declare-styleable>
+    <declare-styleable name="IrisGallery">
+		<attr name="android:galleryItemBackground"/>
+	</declare-styleable>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="compat_button_inset_horizontal_material">4dp</dimen>
+    <dimen name="compat_button_inset_vertical_material">6dp</dimen>
+    <dimen name="compat_button_padding_horizontal_material">8dp</dimen>
+    <dimen name="compat_button_padding_vertical_material">4dp</dimen>
+    <dimen name="compat_control_corner_material">2dp</dimen>
+    <dimen name="notification_action_icon_size">32dp</dimen>
+    <dimen name="notification_action_text_size">13sp</dimen>
+    <dimen name="notification_big_circle_margin">12dp</dimen>
+    <dimen name="notification_content_margin_start">8dp</dimen>
+    <dimen name="notification_large_icon_height">64dp</dimen>
+    <dimen name="notification_large_icon_width">64dp</dimen>
+    <dimen name="notification_main_column_padding_top">10dp</dimen>
+    <dimen name="notification_media_narrow_margin">@dimen/notification_content_margin_start</dimen>
+    <dimen name="notification_right_icon_size">16dp</dimen>
+    <dimen name="notification_right_side_padding_top">2dp</dimen>
+    <dimen name="notification_small_icon_background_padding">3dp</dimen>
+    <dimen name="notification_small_icon_size_as_large">24dp</dimen>
+    <dimen name="notification_subtext_size">13sp</dimen>
+    <dimen name="notification_top_pad">10dp</dimen>
+    <dimen name="notification_top_pad_large_text">5dp</dimen>
+    <drawable name="notification_template_icon_bg">#3333B5E5</drawable>
+    <drawable name="notification_template_icon_low_bg">#0cffffff</drawable>
+    <item name="dialog_db_delete_entry" type="id"/>
+    <item name="dialog_db_error" type="id"/>
+    <item name="dialog_db_modify" type="id"/>
+    <item name="dialog_device_or_sample" type="id"/>
+    <item name="dialog_enroll" type="id"/>
+    <item name="dialog_enroll_id" type="id"/>
+    <item name="dialog_enroll_textfield" type="id"/>
+    <item name="dialog_error" type="id"/>
+    <item name="dialog_failed" type="id"/>
+    <item name="dialog_finger_candidate_list" type="id"/>
+    <item name="dialog_identification_results" type="id"/>
+    <item name="dialog_iris_candidate_list" type="id"/>
+    <item name="dialog_licensing_from_file_mode" type="id"/>
+    <item name="dialog_licensing_from_pc_mode" type="id"/>
+    <item name="dialog_manage_connections" type="id"/>
+    <item name="dialog_message" type="id"/>
+    <item name="dialog_progress" type="id"/>
+    <item name="dialog_question" type="id"/>
+    <item name="dialog_repeat_id" type="id"/>
+    <item name="dialog_verification" type="id"/>
+    <item name="dialog_verify" type="id"/>
+    <item name="dialog_voice_candidate_list" type="id"/>
+    <item name="finger_scan_activity_general_error_dialog" type="id"/>
+    <item name="finger_scan_activity_scanning_error_dialog" type="id"/>
+    <item name="iris_scan_activity_general_error_dialog" type="id"/>
+    <item name="iris_scan_activity_scanning_error_dialog" type="id"/>
+    <item name="line1" type="id"/>
+    <item name="line3" type="id"/>
+    <item name="list_item_layout" type="id"/>
+    <item name="tag_transition_group" type="id"/>
+    <item name="text" type="id"/>
+    <item name="text2" type="id"/>
+    <item name="title" type="id"/>
+    <integer name="cancel_button_image_alpha">127</integer>
+    <integer name="status_bar_notification_info_maxnum">999</integer>
+    <string name="about_dialog_title">About Neurotechnology</string>
+    <string name="action_settings">Settings</string>
+    <string name="app_name">Multimodal</string>
+    <string name="face_app_name">VeriLook</string>
+    <string name="finger_app_name">VeriFinger</string>
+    <string name="iris_app_name">VeriEye</string>
+    <string name="menu_about">About</string>
+    <string name="menu_activation">Activation</string>
+    <string name="menu_clear_db">Clear database</string>
+    <string name="menu_database">Database</string>
+    <string name="menu_licensing">Licensing</string>
+    <string name="menu_preferences">Preferences</string>
+    <string name="menu_view_db">View database</string>
+    <string name="msg_about">About</string>
+    <string name="msg_about_company">Neurotechnology</string>
+    <string name="msg_activate">Activate</string>
+    <string name="msg_activate_online">Would you like to activate ID online?</string>
+    <string name="msg_activated_components">Activated components</string>
+    <string name="msg_activating">Activating...</string>
+    <string name="msg_activation">Activation</string>
+    <string name="msg_activation_failed">Activation failed</string>
+    <string name="msg_activation_info">Activation info</string>
+    <string name="msg_activation_succeeded">Activation succeeded</string>
+    <string name="msg_add">Add</string>
+    <string name="msg_add_license_files">Add license files</string>
+    <string name="msg_again">Again</string>
+    <string name="msg_all_components_activated">All components are activated</string>
+    <string name="msg_another_task_in_progress">Another task is in progress at the moment</string>
+    <string name="msg_bad_dynamic_range">Bad dynamic range</string>
+    <string name="msg_bad_exposure">Bad exposure</string>
+    <string name="msg_bad_object">The object is bad</string>
+    <string name="msg_bad_object_sequence">Bad object sequence</string>
+    <string name="msg_bad_position">Object is in bad position</string>
+    <string name="msg_bad_sharpness">Bad sharpness</string>
+    <string name="msg_bad_size">Size is bad</string>
+    <string name="msg_bad_speed">Bad speed</string>
+    <string name="msg_blink">Blink: %1$s</string>
+    <string name="msg_camera_formats">Camera formats</string>
+    <string name="msg_camera_is_not_available">Camera is not available</string>
+    <string name="msg_cancel">Cancel</string>
+    <string name="msg_capture">Capture</string>
+    <string name="msg_capture_error">Capture error</string>
+    <string name="msg_capturing_device_is_unavailable">Please make sure the capturing device is plugged in</string>
+    <string name="msg_checking_licensing_mode">Checking licensing mode</string>
+    <string name="msg_choose_template_to_verify_with">Please choose a template to verify with</string>
+    <string name="msg_cleaning_needed">Cleaning is needed</string>
+    <string name="msg_close">Close</string>
+    <string name="msg_communication_error">Communication error</string>
+    <string name="msg_company_info">Vendor: %1$s\nVersion: %2$s\nCopyright \u00a9 2012 - 2019 Neurotechnology</string>
+    <string name="msg_company_name">Neurotechnology</string>
+    <string name="msg_configuration">Configuration</string>
+    <string name="msg_configure">Configure</string>
+    <string name="msg_connected">Connected</string>
+    <string name="msg_connection">Connection</string>
+    <string name="msg_continue_pending">Continue pending</string>
+    <string name="msg_copy_to_clipboard">Copy to clipboard</string>
+    <string name="msg_copying_resources">Copying resources…</string>
+    <string name="msg_copyright">Copyright \u00a9 2015 - 2019 Neurotechnology</string>
+    <string name="msg_could_not_create_directory">Could not create directory</string>
+    <string name="msg_crash_dialog_comment_prompt">You might add your comments about the problem below:</string>
+    <string name="msg_crash_dialog_ok_toast">Thank you!</string>
+    <string name="msg_crash_dialog_text">An unexpected error occurred forcing the application to stop.
+		Please help us to fix this by sending an email to support@neurotechnology.com with the report file attached.
+		The report file will be saved to \'sdcard/Neurotechnology/Reports\' folder once you press \'OK\' button.
+	</string>
+    <string name="msg_crash_notif_text">Please click here to help fix the issue.</string>
+    <string name="msg_crash_notif_ticker_text">Unexpected error, please send a report...</string>
+    <string name="msg_crash_notif_title">Biometrics has crashed…</string>
+    <string name="msg_crash_toast_text">The application has crashed. Please see the notification for more information.</string>
+    <string name="msg_dark_glasses">Dark glasses: %1$s</string>
+    <string name="msg_database">Database</string>
+    <string name="msg_db_access_error">Error accessing database</string>
+    <string name="msg_db_empty">Database is empty</string>
+    <string name="msg_db_entry_delete_question">Are you sure you want to delete this template?</string>
+    <string name="msg_deactivate">Deactivate</string>
+    <string name="msg_deactivating">Deactivating...</string>
+    <string name="msg_deactivation">Deactivation</string>
+    <string name="msg_deactivation_failed">Deactivation failed</string>
+    <string name="msg_deactivation_succeeded">Deactivation succeeded</string>
+    <string name="msg_delete">Delete</string>
+    <string name="msg_details">Details...</string>
+    <string name="msg_dialog_retry_to_open_file">Do you wish to try again?</string>
+    <string name="msg_directly">Directly</string>
+    <string name="msg_done">Done</string>
+    <string name="msg_duplicate_found">Duplicate found</string>
+    <string name="msg_duplicate_id">Duplicate ID</string>
+    <string name="msg_enroll">Enroll</string>
+    <string name="msg_enrolling">Enrolling…</string>
+    <string name="msg_enrollment">Enrollment</string>
+    <string name="msg_enrollment_failed">Enrollment failed: %1$s</string>
+    <string name="msg_enrollment_succeeded">Enrollment succeeded</string>
+    <string name="msg_enter_id">Please enter user ID:</string>
+    <string name="msg_error">Error</string>
+    <string name="msg_error_opening_file">Error opening file</string>
+    <string name="msg_exit">Exit</string>
+    <string name="msg_exporting">Exporting...</string>
+    <string name="msg_expression_and_confidence">Expression: %1$s</string>
+    <string name="msg_extract">Extract</string>
+    <string name="msg_extracting">Extracting…</string>
+    <string name="msg_extracting_please_wait">Extracting. Please wait…</string>
+    <string name="msg_extraction">Extraction</string>
+    <string name="msg_extraction_error">Error occurred during extraction</string>
+    <string name="msg_extraction_failed">Template extraction failed: %1$s</string>
+    <string name="msg_extraction_succeeded">Extraction succeeded</string>
+    <string name="msg_face_detected">Face detected! Press capture button to proceed.</string>
+    <string name="msg_failed_to_load_image_or_standard">File did not contain supported image or standard</string>
+    <string name="msg_failed_to_open_file">Failed to open file</string>
+    <string name="msg_female">Female</string>
+    <string name="msg_format_configuration">Configuration:\n%1$s</string>
+    <string name="msg_format_license_directory_not_available">Can not find license files. License files should be placed on SDCard in %s directory.</string>
+    <string name="msg_format_licensing_service_report_was_saved">Licensing service report was saved to file %1$s</string>
+    <string name="msg_format_log">Log:\n%1$s</string>
+    <string name="msg_format_status">Status: %1$s</string>
+    <string name="msg_format_trial">Trial: %1$s</string>
+    <string name="msg_found">Found</string>
+    <string name="msg_from_file">From file</string>
+    <string name="msg_from_pc">From PC</string>
+    <string name="msg_gender">Gender: %1$s</string>
+    <string name="msg_generate">Generate</string>
+    <string name="msg_generate_report">Generate report</string>
+    <string name="msg_generating">Generating ID...</string>
+    <string name="msg_generation_failed">ID generation failed</string>
+    <string name="msg_generation_succeeded">ID was successfully generated and stored in SD Card/Neurotechnology/Licenses directory</string>
+    <string name="msg_glasses">Glasses: %1$s</string>
+    <string name="msg_id_not_found">ID not found</string>
+    <string name="msg_id_requirements">User id must be non-empty and unique</string>
+    <string name="msg_identification">Identification</string>
+    <string name="msg_identification_error">Error occurred during identification</string>
+    <string name="msg_identification_fail">Identification failed</string>
+    <string name="msg_identification_results">ID: %1$s</string>
+    <string name="msg_identification_results_with_score">Name: %1$s. Score: %2$d</string>
+    <string name="msg_identify">Identify</string>
+    <string name="msg_identifying">Identifying…</string>
+    <string name="msg_importing">Importing...</string>
+    <string name="msg_incompatible_samples">Incompatible samples</string>
+    <string name="msg_incompatible_source">Incompatible source</string>
+    <string name="msg_initializing">Initializing…</string>
+    <string name="msg_initializing_client">Initializing client…</string>
+    <string name="msg_internal_error">Internal error</string>
+    <string name="msg_internet_connection">Internet connection</string>
+    <string name="msg_internet_connection_status">Connection status</string>
+    <string name="msg_internet_connection_type">Connection type</string>
+    <string name="msg_invalid_field_value">Invalid field value</string>
+    <string name="msg_invalid_id">Invalid ID</string>
+    <string name="msg_invalid_operations">Invalid operations</string>
+    <string name="msg_invalid_property_value">Invalid property value</string>
+    <string name="msg_invalid_query">Invalid query</string>
+    <string name="msg_ip_and_port_not_valid">Entered IP and port are not valid</string>
+    <string name="msg_ip_not_valid">Entered IP is not valid</string>
+    <string name="msg_license_file_is_not_selected">License file is not selected</string>
+    <string name="msg_licenses_not_obtained">Licenses were not obtained</string>
+    <string name="msg_licenses_obtained">Licenses were obtained</string>
+    <string name="msg_licenses_partially_obtained">Not all Licenses were obtained</string>
+    <string name="msg_licensing_mode">Licensing mode</string>
+    <string name="msg_licensing_mode_change_message">In order for changes to take effect restart application.</string>
+    <string name="msg_licensing_mode_title">Licensing mode</string>
+    <string name="msg_licensing_preference_category">Licensing</string>
+    <string name="msg_licensing_preference_use_trial">Use Trial Mode</string>
+    <string name="msg_licensing_select_mode_direct">Obtain license directly from the Internet server</string>
+    <string name="msg_licensing_select_mode_from_file">Obtain license from files stored at predefined location</string>
+    <string name="msg_licensing_select_mode_from_pc">Obtain license from computer in local network</string>
+    <string name="msg_licensing_server">Licensing server</string>
+    <string name="msg_licensing_server_address">Address</string>
+    <string name="msg_licensing_server_port">Port</string>
+    <string name="msg_licensing_service">Licensing service</string>
+    <string name="msg_liveness_check_failed">Liveness check failed</string>
+    <string name="msg_load">Load</string>
+    <string name="msg_loaded_modules">Loaded modules</string>
+    <string name="msg_loading_resources">Loading resources...</string>
+    <string name="msg_log">Log</string>
+    <string name="msg_log_copied_to_clipboard">Log was copied to clipboard</string>
+    <string name="msg_log_not_available">Log is not available</string>
+    <string name="msg_male">Male</string>
+    <string name="msg_match_not_found">Match not found</string>
+    <string name="msg_metadata">Metadata</string>
+    <string name="msg_modify">Modify</string>
+    <string name="msg_name">Name</string>
+    <string name="msg_name_empty">Template must have a name</string>
+    <string name="msg_name_exists">The specified name is already in use. Please enter a different name.</string>
+    <string name="msg_no">No</string>
+    <string name="msg_no_activated_components">No activated components</string>
+    <string name="msg_no_audio_device">No audio recording device found</string>
+    <string name="msg_no_device_selected">No device selected</string>
+    <string name="msg_no_internet_connection">Unable to connect to the Internet</string>
+    <string name="msg_no_internet_connection_still_proceed">Unable to connect to the Internet. Do you want to proceed?</string>
+    <string name="msg_no_licenses">There are no licenses in directory</string>
+    <string name="msg_no_loaded_modules">No loaded modules</string>
+    <string name="msg_no_loaded_plugins">No loaded plugins</string>
+    <string name="msg_no_matches">No matches found</string>
+    <string name="msg_no_record_loaded">No record loaded</string>
+    <string name="msg_no_records_in_database">There are no records in the database</string>
+    <string name="msg_no_serial_numbers">There are no serial numbers in directory</string>
+    <string name="msg_no_such_id">There is no candidate with such id</string>
+    <string name="msg_none">None</string>
+    <string name="msg_not_activated_components">Not activated components</string>
+    <string name="msg_not_connected">Not connected</string>
+    <string name="msg_not_found">Not found</string>
+    <string name="msg_not_installed">Not installed</string>
+    <string name="msg_not_recognized_file_loading_type">Unrecognized file loading type</string>
+    <string name="msg_not_running">Not running</string>
+    <string name="msg_not_valid_id">Entered id is not valid!</string>
+    <string name="msg_object_missing">Object is missing</string>
+    <string name="msg_object_not_found"> Object is not found</string>
+    <string name="msg_objects_not_removed">Objects have not been removed</string>
+    <string name="msg_obtain">Obtain</string>
+    <string name="msg_obtaining_licenses">Obtaining licenses...</string>
+    <string name="msg_ok">OK</string>
+    <string name="msg_operation_failed">Operation failed</string>
+    <string name="msg_operation_is_not_activated">Operation is not activated</string>
+    <string name="msg_operation_not_activated">Operation not activated</string>
+    <string name="msg_operation_not_supported">Operation not supported</string>
+    <string name="msg_operation_succeeded">Operation succeeded</string>
+    <string name="msg_pause_pending">Pause pending</string>
+    <string name="msg_paused">Paused</string>
+    <string name="msg_person_data">Person data</string>
+    <string name="msg_person_verified">Person verified</string>
+    <string name="msg_phrase_can_be_repeated">Note: phrase can be repeated to improve recognition quality</string>
+    <string name="msg_please_wait">Please wait…</string>
+    <string name="msg_plugins">Plugins</string>
+    <string name="msg_port_not_valid">Entered port is not valid</string>
+    <string name="msg_proceed_activation_online">Device id\'s were generated: %s. Please proceed activation online by using site: http://www.neurotechnology.com/software_activation.html. Alternatively, id files can be sent to Neurotechnology (support@neurotechnology.com) or distributor from which SDK was acquired</string>
+    <string name="msg_proceed_deactivation_online">Deactivation id\'s were generated: %s. Please proceed deactivation online by using site: http://www.neurotechnology.com/cgi-bin/nlz.cgi. Alternatively, id files can be sent to Neurotechnology (support@neurotechnology.com) or distributor from which SDK was acquired</string>
+    <string name="msg_processing">Processing...</string>
+    <string name="msg_protection_governor">Protection governor</string>
+    <string name="msg_protection_governor_not_started">Protection governor not started</string>
+    <string name="msg_quality_failed">Quality failed</string>
+    <string name="msg_question_manage_networks">Would you like to manage your network connections now?</string>
+    <string name="msg_ready">Ready</string>
+    <string name="msg_release">Release</string>
+    <string name="msg_remove">Remove</string>
+    <string name="msg_reobtain_licenses_question">Changes to licenses were made. Do you wish to perform reobtain?</string>
+    <string name="msg_repeat">Repeat</string>
+    <string name="msg_reset_to_defaults">Set default values</string>
+    <string name="msg_reset_to_defaults_summary">Sets all preferences to factory defaults</string>
+    <string name="msg_restarting_service">Restarting service</string>
+    <string name="msg_retry">Retry</string>
+    <string name="msg_running">Running</string>
+    <string name="msg_say_your_phrase">Please say your phrase</string>
+    <string name="msg_score">Score</string>
+    <string name="msg_sdcard_not_ready_for_reading">SD card is not ready for reading. Please unmounted it from PC and try again.</string>
+    <string name="msg_select_licensing_mode">Select licensing mode</string>
+    <string name="msg_serial_numbers">Serial numbers</string>
+    <string name="msg_service">Service</string>
+    <string name="msg_settings_reset">Settings have been reset</string>
+    <string name="msg_smile">Smile</string>
+    <string name="msg_source_error">Source error</string>
+    <string name="msg_source_missing">Source missing</string>
+    <string name="msg_source_not_found">Source not found</string>
+    <string name="msg_spoof_detected">Spoof has been detected</string>
+    <string name="msg_standard_category">Standard</string>
+    <string name="msg_start">Start</string>
+    <string name="msg_start_pending">Start pending</string>
+    <string name="msg_starting_service">Starting service</string>
+    <string name="msg_status">Status</string>
+    <string name="msg_status_format">Status: %1$s</string>
+    <string name="msg_stop">Stop</string>
+    <string name="msg_stop_pending">Stop pending</string>
+    <string name="msg_stopped">Stopped</string>
+    <string name="msg_stopping_service">Stopping service</string>
+    <string name="msg_template_extracted">Template extracted</string>
+    <string name="msg_template_not_extracted">Template was not extracted</string>
+    <string name="msg_third_party_file_loading_app_failed">Selected source loading app failed</string>
+    <string name="msg_timeout">Process has timed out</string>
+    <string name="msg_too_close">Object is placed too close</string>
+    <string name="msg_too_east">Object is placed too far east</string>
+    <string name="msg_too_far">Object is placed too far</string>
+    <string name="msg_too_fast">Too fast</string>
+    <string name="msg_too_few_features">Too few features</string>
+    <string name="msg_too_few_objects">Too few object</string>
+    <string name="msg_too_few_samples">Too few samples</string>
+    <string name="msg_too_hard">The object is too hard</string>
+    <string name="msg_too_long">Object is too long</string>
+    <string name="msg_too_many_objects">Too many objects</string>
+    <string name="msg_too_narrow">Object is too narrow</string>
+    <string name="msg_too_north">Object is placed too far north</string>
+    <string name="msg_too_short">Object is too short</string>
+    <string name="msg_too_skewed">Object is too skewed</string>
+    <string name="msg_too_slow">Too slow</string>
+    <string name="msg_too_soft">The object is too soft</string>
+    <string name="msg_too_south">Object is placed too far south</string>
+    <string name="msg_too_west">Object is placed too far west</string>
+    <string name="msg_too_wide">Object is too wide</string>
+    <string name="msg_trial">Trial</string>
+    <string name="msg_trial_category">Trial</string>
+    <string name="msg_unknown">Unknown</string>
+    <string name="msg_unspecified">Unspecified</string>
+    <string name="msg_updating">Updating…</string>
+    <string name="msg_user_id">User id</string>
+    <string name="msg_user_id_must_be_unique_and_non_empty">User id must be unique and non-empty</string>
+    <string name="msg_user_name">User name</string>
+    <string name="msg_using_unique_phrase_only">Using unique phrase only</string>
+    <string name="msg_verification">Verification</string>
+    <string name="msg_verification_failed">Verification failed: %1$s</string>
+    <string name="msg_verification_succeeded">Verification succeeded</string>
+    <string name="msg_verify">Verify</string>
+    <string name="msg_verifying">Verifying…</string>
+    <string name="msg_verifying_please_wait_">Verifying. Please wait…</string>
+    <string name="msg_vew_log">View log</string>
+    <string name="msg_voice_detected">Voice detected</string>
+    <string name="msg_voice_not_detected">Voice not detected</string>
+    <string name="msg_wrong_direction">Direction is wrong</string>
+    <string name="msg_yes">Yes</string>
+    <string name="nfaceview_attributes_age_format">Age: %1$d</string>
+    <string name="nfaceview_attributes_emotion_anger">Anger</string>
+    <string name="nfaceview_attributes_emotion_confidence_format">(%1$d%%)</string>
+    <string name="nfaceview_attributes_emotion_disgust">Disgust</string>
+    <string name="nfaceview_attributes_emotion_fear">Fear</string>
+    <string name="nfaceview_attributes_emotion_happiness">Happiness</string>
+    <string name="nfaceview_attributes_emotion_neutral">Neutral</string>
+    <string name="nfaceview_attributes_emotion_sadness">Sadness</string>
+    <string name="nfaceview_attributes_emotion_surprise">Surprise</string>
+    <string name="nfaceview_attributes_ethnicity_asian">Asian</string>
+    <string name="nfaceview_attributes_ethnicity_black">Black</string>
+    <string name="nfaceview_attributes_ethnicity_confidence_format">(%1$d%%)</string>
+    <string name="nfaceview_attributes_ethnicity_hispanic">Hispanic</string>
+    <string name="nfaceview_attributes_ethnicity_indian">Indian</string>
+    <string name="nfaceview_attributes_ethnicity_white">White</string>
+    <string name="nfaceview_attributes_expression_confidence_format">(%1$d%%)</string>
+    <string name="nfaceview_attributes_expression_eyes_away">Eyes away</string>
+    <string name="nfaceview_attributes_expression_frowning">Frowning</string>
+    <string name="nfaceview_attributes_expression_neutral">Neutral</string>
+    <string name="nfaceview_attributes_expression_raised_brows">Raised brows</string>
+    <string name="nfaceview_attributes_expression_smile">Smile</string>
+    <string name="nfaceview_attributes_expression_smile_opened_jaw">Smile opened jaw</string>
+    <string name="nfaceview_attributes_expression_squinting">Squinting</string>
+    <string name="nfaceview_attributes_expression_unknown">Unknown</string>
+    <string name="nfaceview_attributes_expression_unspecified">Unspecified</string>
+    <string name="nfaceview_attributes_gender_confidence_format">(%1$d%%)</string>
+    <string name="nfaceview_attributes_gender_female">Female</string>
+    <string name="nfaceview_attributes_gender_male">Male</string>
+    <string name="nfaceview_attributes_gender_unknown">Unknown</string>
+    <string name="nfaceview_attributes_gender_unspecified">Unspecified</string>
+    <string name="nfaceview_attributes_property_beard">Beard</string>
+    <string name="nfaceview_attributes_property_blink">Blink</string>
+    <string name="nfaceview_attributes_property_both_eye_patch">Both eye patch</string>
+    <string name="nfaceview_attributes_property_confidence_format">(%1$d%%)</string>
+    <string name="nfaceview_attributes_property_dark_glasses">Dark glasses</string>
+    <string name="nfaceview_attributes_property_distorting_condition">Distorting condition</string>
+    <string name="nfaceview_attributes_property_glasses">Glasses</string>
+    <string name="nfaceview_attributes_property_hat">Hat</string>
+    <string name="nfaceview_attributes_property_left_eye_patch">Left eye patch</string>
+    <string name="nfaceview_attributes_property_mouth_open">Mouth open</string>
+    <string name="nfaceview_attributes_property_mustache">Mustache</string>
+    <string name="nfaceview_attributes_property_no_ear">No ear</string>
+    <string name="nfaceview_attributes_property_right_eye_patch">Right eye patch</string>
+    <string name="nfaceview_attributes_property_scarf">Scarf</string>
+    <string name="nfaceview_attributes_property_specified">Specified</string>
+    <string name="nfaceview_attributes_property_teeth_visible">Teeth visible</string>
+    <string name="nfaceview_icao_warning_background_uniformity">Background uniformity</string>
+    <string name="nfaceview_icao_warning_blink">Blink</string>
+    <string name="nfaceview_icao_warning_dark_glasses">Dark glasses</string>
+    <string name="nfaceview_icao_warning_expression">Expression</string>
+    <string name="nfaceview_icao_warning_face_darkness">Face darkness</string>
+    <string name="nfaceview_icao_warning_face_not_detected">Face not detected</string>
+    <string name="nfaceview_icao_warning_glasses_reflection">Glasses reflection</string>
+    <string name="nfaceview_icao_warning_grayscale_density">Grayscale density</string>
+    <string name="nfaceview_icao_warning_looking_away">Looking away</string>
+    <string name="nfaceview_icao_warning_mouth_open">Mouth open</string>
+    <string name="nfaceview_icao_warning_pitch_down">Pitch down</string>
+    <string name="nfaceview_icao_warning_pitch_up">Pitch up</string>
+    <string name="nfaceview_icao_warning_pixelation">Pixelation</string>
+    <string name="nfaceview_icao_warning_red_eye">Red eye</string>
+    <string name="nfaceview_icao_warning_roll_left">Roll left</string>
+    <string name="nfaceview_icao_warning_roll_right">Roll right</string>
+    <string name="nfaceview_icao_warning_saturation">Saturation</string>
+    <string name="nfaceview_icao_warning_sharpness">Sharpness</string>
+    <string name="nfaceview_icao_warning_skin_reflection">Skin reflection</string>
+    <string name="nfaceview_icao_warning_too_east">Too east</string>
+    <string name="nfaceview_icao_warning_too_far">Too far</string>
+    <string name="nfaceview_icao_warning_too_near">Too close</string>
+    <string name="nfaceview_icao_warning_too_north">Too north</string>
+    <string name="nfaceview_icao_warning_too_south">Too south</string>
+    <string name="nfaceview_icao_warning_too_west">Too west</string>
+    <string name="nfaceview_icao_warning_unnatural_skin_tone">Unnatural skin tone</string>
+    <string name="nfaceview_icao_warning_washed_out">Colors washed out</string>
+    <string name="nfaceview_icao_warning_yaw_left">Yaw left</string>
+    <string name="nfaceview_icao_warning_yaw_right">Yaw right</string>
+    <string name="nfaceview_liveness_blink">Blink</string>
+    <string name="nfaceview_liveness_keep_rotating_yaw">Turn face from side to side</string>
+    <string name="nfaceview_liveness_keep_still">Keep still</string>
+    <string name="nfaceview_liveness_rotate">Turn to target</string>
+    <string name="nfaceview_liveness_score_format">, Score: %1$d</string>
+    <string name="nfaceview_liveness_turn_down">Turn down</string>
+    <string name="nfaceview_liveness_turn_left">Turn left</string>
+    <string name="nfaceview_liveness_turn_right">Turn right</string>
+    <string name="nfaceview_liveness_turn_to_center">Turn to the center</string>
+    <string name="nfaceview_liveness_turn_up">Turn up</string>
+    <string name="preferences_camera_change_camera">Change camera</string>
+    <string name="preferences_camera_resolution">Camera resolution</string>
+    <string name="preferences_camera_screen_name">Camera</string>
+    <string name="preferences_check_for_duplicates_multimodal">Perform duplicate check</string>
+    <string name="preferences_enrollment_check_for_duplicates">Check for duplicates</string>
+    <string name="preferences_extraction">Extraction</string>
+    <string name="preferences_face_advanced_category_name">Advanced</string>
+    <string name="preferences_face_age_category_name">Age</string>
+    <string name="preferences_face_confidence_threshold">Face confidence threshold</string>
+    <string name="preferences_face_create_thumbnail">Create thumbnail</string>
+    <string name="preferences_face_detect_all_feature_points">Detect all feature points</string>
+    <string name="preferences_face_detect_base_feature_points">Detect base feature points</string>
+    <string name="preferences_face_detect_properties">Detect properties</string>
+    <string name="preferences_face_determine_age">Determine age</string>
+    <string name="preferences_face_determine_gender">Determine gender</string>
+    <string name="preferences_face_extraction_angle_deviation_category_name">Angle deviations</string>
+    <string name="preferences_face_extraction_iod_category_name">Inter ocular distances</string>
+    <string name="preferences_face_icao_category_name">ICAO settings</string>
+    <string name="preferences_face_icao_show_warning_text">Show icao text warnings</string>
+    <string name="preferences_face_icao_show_warnings">Show icao warnings</string>
+    <string name="preferences_face_liveness_category_name">Liveness</string>
+    <string name="preferences_face_liveness_mode">Liveness mode</string>
+    <string name="preferences_face_matching_speed">Speed</string>
+    <string name="preferences_face_matching_threshold">Matching threshold</string>
+    <string name="preferences_face_max_iod">MaxIod</string>
+    <string name="preferences_face_maximal_roll">Maximal roll angle deviation</string>
+    <string name="preferences_face_maximal_yaw">Maximal yaw angle deviation</string>
+    <string name="preferences_face_min_iod">MinIod</string>
+    <string name="preferences_face_quality_threshold">Face quality threshold</string>
+    <string name="preferences_face_recognize_emotion">Recognize emotion</string>
+    <string name="preferences_face_recognize_expression">Recognize expression</string>
+    <string name="preferences_face_template_size">Template size</string>
+    <string name="preferences_face_thumbnail_category_name">Thumbnail</string>
+    <string name="preferences_face_thumbnail_width">Thumbnail width</string>
+    <string name="preferences_finger_capturing_device">Finger capturing device</string>
+    <string name="preferences_finger_fast_extraction">Fast extraction</string>
+    <string name="preferences_finger_matcher_maximal_rotation">Maximal rotation</string>
+    <string name="preferences_finger_matcher_min_matched_finger_count">Minimal matched finger count</string>
+    <string name="preferences_finger_matcher_min_matched_finger_count_threshold">Minimal matched finger count threshold</string>
+    <string name="preferences_finger_matcher_speed">Speed</string>
+    <string name="preferences_finger_return_binarized_image">Return binarized image</string>
+    <string name="preferences_finger_return_processed_image">Return processed image</string>
+    <string name="preferences_general_section">General</string>
+    <string name="preferences_iris_fast_extraction">Fast extraction</string>
+    <string name="preferences_iris_maximal_rotation">Maximal rotation</string>
+    <string name="preferences_liveness_threshold">Liveness threshold</string>
+    <string name="preferences_matching">Matching</string>
+    <string name="preferences_matching_speed">Matching speed</string>
+    <string name="preferences_quality_threshold">Quality threshold</string>
+    <string name="preferences_reset_to_defaults">Set default values</string>
+    <string name="preferences_reset_to_defaults_summary">Sets all preferences to factory defaults</string>
+    <string name="preferences_template_size">Template size</string>
+    <string name="preferences_voice_extraction_mode">Voices extraction mode</string>
+    <string name="preferences_voice_unique_phrases_only">Unique phrases only</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="title_activity_activation">ActivationActivity</string>
+    <string name="title_assets">Assets</string>
+    <string name="title_devices">Devices</string>
+    <string name="title_directory_view_activity">Listing the contents of </string>
+    <string name="title_directory_view_browse">Browse...</string>
+    <string name="title_directory_view_cannot_open">Cannot open this directory</string>
+    <string name="title_directory_view_no_items">No items in directory</string>
+    <string name="title_from_camera">From camera…</string>
+    <string name="title_from_file">From file…</string>
+    <string name="title_image_input_source_activity">Pick an image</string>
+    <string name="title_input_source_activity">Pick a file</string>
+    <string name="title_item_from_sample_directory">Item from sample directory</string>
+    <string name="title_memory">Memory</string>
+    <string name="voice_app_name">VeriSpeak</string>
+    <style name="TextAppearance.Compat.Notification" parent="@android:style/TextAppearance.StatusBar.EventContent"/>
+    <style name="TextAppearance.Compat.Notification.Info">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">?android:attr/textColorSecondary</item>
+    </style>
+    <style name="TextAppearance.Compat.Notification.Info.Media"/>
+    <style name="TextAppearance.Compat.Notification.Line2" parent="TextAppearance.Compat.Notification.Info"/>
+    <style name="TextAppearance.Compat.Notification.Line2.Media" parent="TextAppearance.Compat.Notification.Info.Media"/>
+    <style name="TextAppearance.Compat.Notification.Media"/>
+    <style name="TextAppearance.Compat.Notification.Time">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">?android:attr/textColorSecondary</item>
+    </style>
+    <style name="TextAppearance.Compat.Notification.Time.Media"/>
+    <style name="TextAppearance.Compat.Notification.Title" parent="@android:style/TextAppearance.StatusBar.EventContent.Title"/>
+    <style name="TextAppearance.Compat.Notification.Title.Media"/>
+    <style name="Widget.Compat.NotificationActionContainer" parent=""/>
+    <style name="Widget.Compat.NotificationActionText" parent=""/>
+    <style name="Widget.Support.CoordinatorLayout" parent="android:Widget">
+        <item name="statusBarBackground">#000000</item>
+    </style>
+</resources>
