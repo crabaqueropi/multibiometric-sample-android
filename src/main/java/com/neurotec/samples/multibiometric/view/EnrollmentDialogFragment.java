@@ -45,15 +45,15 @@ public class EnrollmentDialogFragment extends BaseDialogFragment {
 	// Public methods
 	// ===========================================================
 
-	@Override
-	public void onAttach(Activity activity) {
-		super.onAttach(activity);
-		try {
-			mListener = (EnrollmentDialogListener) activity;
-		} catch (ClassCastException e) {
-			throw new ClassCastException(activity.toString() + " must implement EnrollmentDialogListener");
-		}
-	}
+//	@Override
+//	public void onAttach(Activity activity) {
+//		super.onAttach(activity);
+//		try {
+//			mListener = (EnrollmentDialogListener) activity;
+//		} catch (ClassCastException e) {
+//			throw new ClassCastException(activity.toString() + " must implement EnrollmentDialogListener");
+//		}
+//	}
 
 	@Override
 	public Dialog onCreateDialog(Bundle savedInstanceState) {

@@ -152,14 +152,14 @@ public final class R {
         public static final int deactivate_relative_layout = 0x7f08002b;
         public static final int export_license_text = 0x7f080046;
         public static final int export_relative_layout = 0x7f080047;
-        public static final int import_license_text = 0x7f080057;
-        public static final int import_relative_layout = 0x7f080058;
-        public static final int layout_license_list_item = 0x7f080060;
-        public static final int list_item_license_check_box = 0x7f080071;
-        public static final int list_item_license_image = 0x7f080072;
-        public static final int list_item_license_text = 0x7f080073;
-        public static final int list_view_serial_numbers = 0x7f080077;
-        public static final int top_level_container = 0x7f0800ac;
+        public static final int import_license_text = 0x7f080053;
+        public static final int import_relative_layout = 0x7f080054;
+        public static final int layout_license_list_item = 0x7f08005a;
+        public static final int list_item_license_check_box = 0x7f08006b;
+        public static final int list_item_license_image = 0x7f08006c;
+        public static final int list_item_license_text = 0x7f08006d;
+        public static final int list_view_serial_numbers = 0x7f080071;
+        public static final int top_level_container = 0x7f0800a6;
     }
     public static final class layout {
         private layout() {}

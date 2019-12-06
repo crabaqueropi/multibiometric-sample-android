@@ -139,17 +139,20 @@ public final class MultiModalActivity extends BaseActivity implements ActivityCo
 		combinedComponents.addAll(getAdditionalComponentsInternal());
 		return combinedComponents;
 	}
+	// ****** Inicio Cambios Cristian *******
 
-	private void updateRecordCount(List<NLRecord> faces, List<NFRecord> fingers, List<NERecord> iris, List<NSRecord> voice) {
-		if (faces != null) {
-			mFaceCounter.setText(String.valueOf(faces.size()));
-		}
-		if (fingers != null) {
-			mFingerCounter.setText(String.valueOf(fingers.size()));
-		}
-		if (iris != null) {
-			mIrisCounter.setText(String.valueOf(iris.size()));
-		}
+	//private void updateRecordCount(List<NLRecord> faces, List<NFRecord> fingers, List<NERecord> iris, List<NSRecord> voice) {
+	private void updateRecordCount(List<NSRecord> voice) {
+//		if (faces != null) {
+//			mFaceCounter.setText(String.valueOf(faces.size()));
+//		}
+//		if (fingers != null) {
+//			mFingerCounter.setText(String.valueOf(fingers.size()));
+//		}
+//		if (iris != null) {
+//			mIrisCounter.setText(String.valueOf(iris.size()));
+//		}
+	// ****** Fin Cambios Cristian *******
 		if (voice != null) {
 			mVoiceCounter.setText(String.valueOf(voice.size()));
 		}
@@ -468,40 +471,47 @@ public final class MultiModalActivity extends BaseActivity implements ActivityCo
 		mIris = new ArrayList<NERecord>();
 		mVoice = new ArrayList<NSRecord>();
 
-		mFaceCounter = (TextView) findViewById(R.id.face_counter);
-		mFingerCounter = (TextView) findViewById(R.id.finger_counter);
-		mIrisCounter = (TextView) findViewById(R.id.iris_counter);
+		// ****** Inicio Cambios Cristian *******
+		//mFaceCounter = (TextView) findViewById(R.id.face_counter);
+		//mFingerCounter = (TextView) findViewById(R.id.finger_counter);
+		//mIrisCounter = (TextView) findViewById(R.id.iris_counter);
+		// ****** Fin Cambios Cristian *******
 		mVoiceCounter = (TextView) findViewById(R.id.voice_counter);
 
 		mSubjectId = (EditText) findViewById(R.id.subject_id);
 		this.getWindow().setSoftInputMode(WindowManager.LayoutParams.SOFT_INPUT_STATE_ALWAYS_HIDDEN);
 
-		ImageView imageFace = (ImageView) findViewById(R.id.face);
-		imageFace.setOnClickListener(new View.OnClickListener() {
-			@Override
-			public void onClick(View view) {
-				Intent faceActivity = new Intent(MultiModalActivity.this, com.neurotec.samples.multibiometric.multimodal.FaceActivity.class);
-				startActivityForResult(faceActivity, MODALITY_CODE_FACE);
-			}
-		});
+		// ****** Inicio Cambios Cristian *******
 
-		ImageView imageFinger = (ImageView) findViewById(R.id.finger);
-		imageFinger.setOnClickListener(new View.OnClickListener() {
-			@Override
-			public void onClick(View view) {
-				Intent fingerActivity = new Intent(MultiModalActivity.this, com.neurotec.samples.multibiometric.multimodal.FingerActivity.class);
-				startActivityForResult(fingerActivity, MODALITY_CODE_FINGER);
-			}
-		});
+//		ImageView imageFace = (ImageView) findViewById(R.id.face);
+//		imageFace.setOnClickListener(new View.OnClickListener() {
+//			@Override
+//			public void onClick(View view) {
+//				Intent faceActivity = new Intent(MultiModalActivity.this, com.neurotec.samples.multibiometric.multimodal.FaceActivity.class);
+//				startActivityForResult(faceActivity, MODALITY_CODE_FACE);
+//			}
+//		});
 
-		ImageView imageIris = (ImageView) findViewById(R.id.iris);
-		imageIris.setOnClickListener(new View.OnClickListener() {
-			@Override
-			public void onClick(View view) {
-				Intent irisActivity = new Intent(MultiModalActivity.this, com.neurotec.samples.multibiometric.multimodal.IrisActivity.class);
-				startActivityForResult(irisActivity, MODALITY_CODE_IRIS);
-			}
-		});
+//		ImageView imageFinger = (ImageView) findViewById(R.id.finger);
+//		imageFinger.setOnClickListener(new View.OnClickListener() {
+//			@Override
+//			public void onClick(View view) {
+//				Intent fingerActivity = new Intent(MultiModalActivity.this, com.neurotec.samples.multibiometric.multimodal.FingerActivity.class);
+//				startActivityForResult(fingerActivity, MODALITY_CODE_FINGER);
+//			}
+//		});
+
+
+		//ImageView imageIris = (ImageView) findViewById(R.id.iris);
+//		imageIris.setOnClickListener(new View.OnClickListener() {
+//			@Override
+//			public void onClick(View view) {
+//				Intent irisActivity = new Intent(MultiModalActivity.this, com.neurotec.samples.multibiometric.multimodal.IrisActivity.class);
+//				startActivityForResult(irisActivity, MODALITY_CODE_IRIS);
+//			}
+//		});
+
+		// ****** Fin Cambios Cristian *******
 
 		ImageView imageVoice = (ImageView) findViewById(R.id.voice);
 		imageVoice.setOnClickListener(new View.OnClickListener() {
@@ -550,11 +560,14 @@ public final class MultiModalActivity extends BaseActivity implements ActivityCo
 			@Override
 			public void onClick(View view) {
 				mFaces.clear();
-				mFingers.clear();
-				mIris.clear();
+				// ****** Inicio Cambios Cristian *******
+				//mFingers.clear();
+				//mIris.clear();
 				mVoice.clear();
 				mSubjectId.setText("");
-				updateRecordCount(mFaces, mFingers, mIris, mVoice);
+				//updateRecordCount(mFaces, mFingers, mIris, mVoice);
+				updateRecordCount(mVoice);
+				// ****** Fin Cambios Cristian *******
 			}
 		});
 		Button mVerify = (Button) findViewById(R.id.multimodal_button_verify);
@@ -564,8 +577,11 @@ public final class MultiModalActivity extends BaseActivity implements ActivityCo
 				verify();
 			}
 		});
+		// ****** Inicio Cambios Cristian *******
 
-		updateRecordCount(mFaces, mFingers, mIris, mVoice);
+		//updateRecordCount(mFaces, mFingers, mIris, mVoice);
+		updateRecordCount(mVoice);
+		// ****** Fin Cambios Cristian *******
 
 		String[] neededPermissions = getNotGrantedPermissions();
 		if(neededPermissions.length == 0) {
@@ -634,7 +650,10 @@ public final class MultiModalActivity extends BaseActivity implements ActivityCo
 				}
 			}
 		}
-		updateRecordCount(mFaces, mFingers, mIris, mVoice);
+		// ****** Inicio Cambios Cristian *******
+		//updateRecordCount(mFaces, mFingers, mIris, mVoice);
+		updateRecordCount(mVoice);
+		// ****** Fin Cambios Cristian *******
 		super.onActivityResult(requestCode, resultCode, data);
 	}
 

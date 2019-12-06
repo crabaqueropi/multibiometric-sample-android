@@ -321,13 +321,9 @@ id enrollment_fragment
 id enrollment_id
 id export_license_text
 id export_relative_layout
-id face
-id face_counter
 id fill
 id fill_horizontal
 id fill_vertical
-id finger
-id finger_counter
 id finger_scan_activity_general_error_dialog
 id finger_scan_activity_scanning_error_dialog
 id forever
@@ -339,8 +335,6 @@ id imageViewMicrophone
 id import_license_text
 id import_relative_layout
 id info
-id iris
-id iris_counter
 id iris_scan_activity_general_error_dialog
 id iris_scan_activity_scanning_error_dialog
 id italic
